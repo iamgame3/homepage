@@ -1,1 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
+:root {
+  --bg-blue: rgb(40, 151, 255);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+label,
+p,
+ul,
+ol,
+li,
+button {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+.header-bg-color {
+  background-color: var(--bg-blue);
+  height: 100vh;
+  width: 200vw;
+  rotate: -15deg;
+  translate: -40vw -40vh;
+}
