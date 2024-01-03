@@ -26,10 +26,79 @@ button {
   font-weight: 100;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figcaption {
+  letter-spacing: 0.15rem;
+}
+
 .header-bg-color {
+  position: absolute;
+  z-index: -1;
   background-color: var(--bg-blue);
   height: 100vh;
   width: 200vw;
   rotate: -15deg;
   translate: -40vw -40vh;
+}
+
+header {
+  margin: 10vh 5vw 10vh 5vw;
+  display: flex;
+  align-items: center;
+}
+
+#header-john {
+  width: 40vw;
+  border-radius: 8px;
+}
+
+.header-image-container {
+  margin: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.header-image-caption {
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+  font-weight: 300;
+  font-size: 80px;
+  color: white;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.header-text-container {
+  padding: 16px;
+  background-color: white;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+  font-weight: 300;
+  font-size: 60px;
+}
+
+.header-info {
+  font-size: 24px;
+}
+
+.social-media-link-container {
+  display: flex;
+  justify-content: right;
+  gap: 0.5rem;
+}
+
+.big-icon {
+  width: 2rem;
 }

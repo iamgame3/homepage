@@ -1,8 +1,14 @@
-import { render, screen } from "@testing-library/react";
+import { getByText, render, screen } from "@testing-library/react";
 import App from "./App";
 
-test("renders learn react link", () => {
+test("renders john image", () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const johnImage = document.querySelector("#header-john");
+  expect(johnImage).toBeInTheDocument();
+});
+
+test("renders header info", () => {
+  render(<App />);
+  const headerInfo = screen.getByText(/imperdiet metus./);
+  expect(headerInfo).toBeInTheDocument();
 });
