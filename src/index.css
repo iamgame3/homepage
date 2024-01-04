@@ -99,6 +99,47 @@ header {
   gap: 0.5rem;
 }
 
-.big-icon {
+.icon {
   width: 2rem;
+}
+
+main {
+  margin: 20vh 5vw 20vh 5vw;
+}
+
+.main-header {
+  font-weight: 300;
+  font-size: 48px;
+}
+
+.work-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2.5vw;
+}
+
+.work-card {
+  width: min-content;
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.1);
+}
+
+.work-card-image {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.work-card-content {
+  padding: 16px;
+}
+
+.work-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.work-card-header-text {
+  font-weight: 300;
 }

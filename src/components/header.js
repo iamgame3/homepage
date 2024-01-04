@@ -25,13 +25,13 @@ function header() {
         </p>
         <div className="social-media-link-container">
           <a href="https://www.facebook.com/johnporkrock/">
-            <img src={facebook} alt="Facebook" className="big-icon" />
+            <img src={facebook} alt="Facebook" className="icon" />
           </a>
           <a href="https://www.instagram.com/john.pork/">
-            <img src={instagram} alt="Instagram" className="big-icon" />
+            <img src={instagram} alt="Instagram" className="icon" />
           </a>
           <a href="https://www.linkedin.com/in/john-pork-834047281?trk=people-guest_people_search-card">
-            <img src={linkedin} alt="LinkedIn" className="big-icon" />
+            <img src={linkedin} alt="LinkedIn" className="icon" />
           </a>
         </div>
       </div>

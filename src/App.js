@@ -3,12 +3,14 @@
 import "./normalize.css";
 import "./index.css";
 import Header from "./components/header";
+import Main from "./components/main";
 
 function App() {
   return (
     <div className="App">
       <div className="header-bg-color" />
       <Header />
+      <Main />
     </div>
   );
 }
