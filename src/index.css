@@ -84,7 +84,7 @@ header {
   box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.1);
 }
 
-.header-title {
+.header-header {
   font-weight: 300;
   font-size: 60px;
 }
@@ -93,7 +93,7 @@ header {
   font-size: 24px;
 }
 
-.social-media-link-container {
+.header-social-media-link-container {
   display: flex;
   justify-content: right;
   gap: 0.5rem;
@@ -142,4 +142,38 @@ main {
 
 .work-card-header-text {
   font-weight: 300;
+}
+
+footer {
+  padding: 10vh 5vw 10vh 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-blue);
+}
+
+.footer-text-container {
+  color: white;
+}
+
+.footer-header {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.footer-contact {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-social-media-link-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: left;
+  gap: 0.5rem;
+}
+
+#footer-john {
+  width: 40vw;
+  border-radius: 8px;
 }

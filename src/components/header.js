@@ -13,7 +13,7 @@ function header() {
         <figcaption className="header-image-caption">John Pork</figcaption>
       </figure>
       <div className="header-text-container">
-        <h1 className="header-title">About Me</h1>
+        <h1 className="header-header">About Me</h1>
         <p className="header-info">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non
           sapien et turpis varius lobortis ut eu est. Donec facilisis nunc a
@@ -23,7 +23,7 @@ function header() {
           purus mauris sed eros. Vestibulum ultrices lobortis egestas. Morbi
           elementum posuere urna, id imperdiet metus.
         </p>
-        <div className="social-media-link-container">
+        <div className="header-social-media-link-container">
           <a href="https://www.facebook.com/johnporkrock/">
             <img src={facebook} alt="Facebook" className="icon" />
           </a>

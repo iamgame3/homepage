@@ -4,6 +4,7 @@ import "./normalize.css";
 import "./index.css";
 import Header from "./components/header";
 import Main from "./components/main";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className="header-bg-color" />
       <Header />
       <Main />
+      <Footer />
     </div>
   );
 }

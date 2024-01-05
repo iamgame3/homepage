@@ -18,3 +18,9 @@ test("renders work cards", () => {
   const workCardHeader = screen.getByText(/Classy/);
   expect(workCardHeader).toBeInTheDocument();
 });
+
+test("renders footer info", () => {
+  render(<App />);
+  const footerInfo = screen.getByText(/Cooliopolis/);
+  expect(footerInfo).toBeInTheDocument();
+});
