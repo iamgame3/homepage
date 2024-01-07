@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-filename-extension */
 /* eslint-disable react/react-in-jsx-scope */
 import headerJohn from "../images/john/header.jpg";
+import headerJohnCropped from "../images/john/header-cropped.jpg";
 import facebook from "../images/icons/facebook.svg";
 import instagram from "../images/icons/instagram.svg";
 import linkedin from "../images/icons/linkedin.svg";
@@ -10,6 +11,7 @@ function header() {
     <header>
       <figure className="header-image-container">
         <img src={headerJohn} alt="" id="header-john" />
+        <img src={headerJohnCropped} alt="" id="header-john-cropped" />
         <figcaption className="header-image-caption">John Pork</figcaption>
       </figure>
       <div className="header-text-container">

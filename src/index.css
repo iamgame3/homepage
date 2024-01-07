@@ -58,6 +58,10 @@ header {
   border-radius: 8px;
 }
 
+#header-john-cropped {
+  display: none;
+}
+
 .header-image-container {
   margin: 0;
   position: relative;
@@ -116,7 +120,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  gap: 2.5vw;
+  gap: 5vw;
 }
 
 .work-card {
@@ -215,11 +219,86 @@ footer {
   #footer-john {
     display: none;
   }
-  
+
   #footer-john-cropped {
     display: block;
     padding: 16px;
     width: 40vw;
     border-radius: 32px;
-  }  
+  }
+}
+
+@media (max-width: 620px) {
+  header {
+    display: block;
+    margin: 5vh 5vw 5vh 5vw;
+  }
+
+  .header-image-container {
+    margin: 0;
+    position: relative;
+    float: none;
+  }
+
+  #header-john {
+    display: none;
+  }
+
+  #header-john-cropped {
+    display: block;
+    width: 90vw;
+  }
+
+  .header-image-caption {
+    position: absolute;
+    right: unset;
+    left: unset;
+    bottom: 16px;
+    text-align: center;
+  }
+
+  .header-header {
+    text-align: center;
+  }
+
+  .header-text-container {
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .header-social-media-link-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-header {
+    text-align: center;
+  }
+
+  footer {
+    display: block;
+    padding: 2.5vh 10vw 0 10vw;
+    padding-bottom: 0;
+  }
+
+  .footer-header {
+    text-align: center;
+  }
+
+  .footer-social-media-link-container {
+    justify-content: center;
+  }
+
+  #email-icon,
+  #phone-icon {
+    display: none;
+  }
+
+  #footer-john-cropped {
+    display: block;
+    padding: 5vh 0 0 0;
+    translate: -10vw;
+    width: 100vw;
+    border-radius: 0;
+  }
 }

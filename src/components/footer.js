@@ -19,12 +19,12 @@ function footer() {
         </p>
         <p>777 Lucky Street, Cooliopolis, NY, US</p>
         <div className="footer-contact">
-          <img src={email} alt="" className="icon" />
+          <img src={email} alt="" className="icon" id="email-icon" />
           <p>johnpork@coolmail.com</p>
         </div>
         <div className="footer-contact">
-          <img src={phone} alt="" className="icon" />
-          <p>johnpork@coolmail.com</p>
+          <img src={phone} alt="" className="icon" id="phone-icon" />
+          <p>777-777-7777</p>
         </div>
         <p>
           Social media icons from <a href="https://icons8.com/">icons8.com</a>
