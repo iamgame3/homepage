@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7a082429.css",
+    "main.js": "/static/js/main.97c85707.js",
+    "static/media/footer.jpg": "/static/media/footer.1402e79b679315ed10c9.jpg",
+    "static/media/footer-cropped.jpg": "/static/media/footer-cropped.3d571c5d14ab572affa3.jpg",
+    "static/media/header.jpg": "/static/media/header.2f31cbc0c097f528a7ee.jpg",
+    "static/media/header-cropped.jpg": "/static/media/header-cropped.49c5e8854d9b990bcb66.jpg",
+    "static/media/la.jpg": "/static/media/la.cc6ff8e303649714f1cd.jpg",
+    "static/media/knight.jpg": "/static/media/knight.829ed74f4ca038fc25d5.jpg",
+    "static/media/spiderman.jpg": "/static/media/spiderman.5edd5719618a8ead6ea0.jpg",
+    "static/media/new-york.jpg": "/static/media/new-york.c8dd02d98593459c7800.jpg",
+    "static/media/nature.jpg": "/static/media/nature.f5c725db642514663949.jpg",
+    "static/media/classy.jpg": "/static/media/classy.bff1d8a3c718848e9e14.jpg",
+    "static/media/instagram.svg": "/static/media/instagram.a0943643c0d5afa017fc7fae53fca463.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.55fb388c4c9df6986ca32fe64a60414a.svg",
+    "static/media/phone.svg": "/static/media/phone.04d357205b0858045638490d9afb7586.svg",
+    "static/media/facebook.svg": "/static/media/facebook.d35c476e6476584b6e4ad1b435567d47.svg",
+    "index.html": "/index.html",
+    "static/media/email.svg": "/static/media/email.ffe24abaeb56c6af70c15d099f4e98f7.svg",
+    "static/media/open.svg": "/static/media/open.3ede19ed228086e87d899cfdb6684d58.svg",
+    "main.7a082429.css.map": "/static/css/main.7a082429.css.map",
+    "main.97c85707.js.map": "/static/js/main.97c85707.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a082429.css",
+    "static/js/main.97c85707.js"
+  ]
+}
