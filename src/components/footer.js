@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-filename-extension */
 /* eslint-disable react/react-in-jsx-scope */
 import footerJohn from "../images/john/footer.jpg";
+import footerJohnCropped from "../images/john/footer-cropped.jpg";
 import email from "../images/icons/email.svg";
 import phone from "../images/icons/phone.svg";
 import facebook from "../images/icons/facebook.svg";
@@ -41,6 +42,7 @@ function footer() {
         </div>
       </div>
       <img src={footerJohn} alt="" id="footer-john" />
+      <img src={footerJohnCropped} alt="" id="footer-john-cropped" />
     </footer>
   );
 }

@@ -120,12 +120,13 @@ main {
 }
 
 .work-card {
-  width: min-content;
+  width: calc(10vw + 200px);
   border-radius: 8px;
   box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.1);
 }
 
 .work-card-image {
+  width: inherit;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
@@ -176,4 +177,49 @@ footer {
 #footer-john {
   width: 40vw;
   border-radius: 8px;
+}
+
+#footer-john-cropped {
+  display: none;
+}
+
+@media (max-width: 1280px) {
+  .header-bg-color {
+    translate: -40vw -80vh;
+  }
+
+  header {
+    display: block;
+    margin-top: 15vh;
+  }
+
+  .header-image-container {
+    margin: -100px 20px 20px -20px;
+    position: static;
+    float: left;
+  }
+
+  .header-image-caption {
+    left: 40vw;
+    bottom: initial;
+  }
+
+  .header-social-media-link-container {
+    display: none;
+  }
+
+  main {
+    margin-top: 0;
+  }
+
+  #footer-john {
+    display: none;
+  }
+  
+  #footer-john-cropped {
+    display: block;
+    padding: 16px;
+    width: 40vw;
+    border-radius: 32px;
+  }  
 }
